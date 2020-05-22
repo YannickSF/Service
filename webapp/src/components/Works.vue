@@ -1,8 +1,8 @@
 <template>
-  <section id="oeuvres" class="hero is-light is-medium">
+  <section id="works" class="hero is-light is-medium">
     <div class="hero-body">
       <div class="container">
-        <p class="title">Works</p>
+        <p class="title">Mes Réalisations</p>
         <div class="columns is-multiline">
           <div class="column is-one-quarter" v-for="item in oeuvres" v-bind:key="item">
             <SingleOeuvre :item=item />
@@ -22,13 +22,13 @@ export default {
           oeuvres: [
             {
               site: 'https://yannicksf.com',
-              site_img: 'https://aprc.it/api/640x480/http://yannicksf.fr/',
+              site_img: 'https://aprc.it/api/640x480/http://yannicksf.com/',
               titre: 'YannickSF Blog',
               description: 'Blog personnel'
             },
             {
               site: 'https://news.yannicksf.com',
-              site_img: 'https://aprc.it/api/640x480/http://news.yannicksf.fr/',
+              site_img: 'https://aprc.it/api/640x480/http://news.yannicksf.com/',
               titre: 'YannickSF News',
               description: 'Site de veille personnel'
             },

@@ -17,22 +17,13 @@
       <br/>
       <table class="table">
         <tbody>
-          <tr>
-            <td>Site : Vtrine/Blog</td>
-          </tr>
-          <tr>
-            <td>Achat du domaine</td>
-          </tr>
-          <tr>
-            <td>Mise en production</td>
-          </tr>
-          <tr>
-            <td>SEO Naturel</td>
+          <tr v-for="l in item.describe" v-bind:key="l">
+            <td>{{ l }}</td>
           </tr>
         </tbody>
       </table>
 
-      <button class="button is-success is-medium is-fullwidth">Passer Commande</button>
+      <button class="button is-success is-medium is-fullwidth">Commander - {{ item.price }} €</button>
     </div>
   </div>
 </template>

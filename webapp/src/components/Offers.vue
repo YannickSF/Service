@@ -6,11 +6,17 @@
           Services
         </p>
         <div class="columns is-multiline is-centered">
-          <div class="column is-two-fifths">
+          <div class="column is-one-third">
             <SingleOffre :item=offres[0] />
           </div>
-          <div class="column is-two-fifths">
-            <SingleDemand :item=offres[1] />
+          <div class="column is-one-third">
+            <SingleOffre :item=offres[1] />
+          </div>
+          <div class="column is-one-third">
+            <SingleOffre :item=offres[2] />
+          </div>
+          <div class="column is-one-third">
+            <SingleDemand :item=offres[3] />
           </div>
         </div>
       </div>
@@ -28,13 +34,26 @@ export default {
     return {
       offres: [
         {img: 'https://bulma.io/images/placeholders/1280x960.png',
-        titre: 'John Smith',
-        subtitre: '@johnsmith'},
+        titre: 'V-FYS-01',
+        subtitre: 'Site de présentation',
+        describe: ['Site de présentation', 'Achat du domaine', 'Développement', 'Mise en production', 'Reprise de contenue', 'SEO'],
+        price: 500},
         {img: 'https://bulma.io/images/placeholders/1280x960.png',
-        titre: 'John Smith',
-        subtitre: '@johnsmith',
-        content: "vous avez un besoin ? \
-        nous voyons ensemble quelles solutions je peux vous apporter"}
+        titre: 'B-FYS-01',
+        subtitre: 'Blog',
+        describe: ['Blog', 'Achat du domaine', 'Développement','Mise en production', 'Reprise de contenue', 'SEO'],
+        price: 800},
+        {img: 'https://bulma.io/images/placeholders/1280x960.png',
+        titre: 'E-FYS-01',
+        subtitre: 'Site de vente',
+        describe: ['Site de vente', 'Achat du domaine', 'Développement','Mise en production', 'Reprise de contenue', 'SEO'],
+        price: 1100},
+        {img: 'https://bulma.io/images/placeholders/1280x960.png',
+        titre: 'OD-FYS-01',
+        subtitre: 'Application Web / POC',
+        content: "vous avez une idée d'application ? \
+        Un concepte à améliorer ? \
+        Faites appels à mes services."}
         ]
     }
   },

@@ -8,14 +8,14 @@
       <a class="navbar-item" href="https://yannicksf.com">
         <img
           src="../assets/icon.png"
-          alt="Yannick SF Service de développement informatique"
+          alt="Yannick SF développeur informatique"
         />
       </a>
     </div>
     <div class="navbar-menu">
       <a class="navbar-item" href="#header">Profil</a>
       <a class="navbar-item" href="#skills">Skills</a>
-      <a class="navbar-item" href="#oeuvres">Works</a>
+      <a class="navbar-item" href="#works">Works</a>
       <a class="navbar-item" href="#offers">Services</a>
       <!--<a class="navbar-item" href="#feedback">Feedbacks</a>-->
     </div>

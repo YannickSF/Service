@@ -1,22 +1,24 @@
 <template>
-  <section id="header" class="hero is-dark is-fullheight-with-navbar has-background" >
-    <img alt="Photo by Ian Schneider on Unsplash" src="@/assets/ian-schneider.jpg" class="hero-background"/>
+  <section id="header"
+    class="hero is-dark is-fullheight-with-navbar has-background" >
+    <img alt="Photo by Ian Schneider on Unsplash"
+      src="@/assets/ian-schneider.jpg"
+      class="hero-background"/>
     <div class="hero-body">
       <div class="container">
-        <p class="title is-4 has-text-black">Yannick FELER</p>
-        <p class="subtitle is-6 has-text-black">@Yannick_SF</p>
+        <p class="title is-4 has-text-black">Yannick S. FELER</p>
         <div class="content has-text-black">
-          Concepteur développeur informatique à votre service. 
+          Concepteur développeur informatique à votre service.
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   </section>

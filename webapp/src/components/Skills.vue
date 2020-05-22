@@ -2,13 +2,13 @@
   <section id="skills" class="hero is-black is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">
-        <p class="title">Skills</p>
+        <p class="title">Compétences</p>
         <div class="columns is-multiline">
           <div class="column is-half" v-for="item in slist" v-bind:key="item">
             <SingleSkill :item="item" />
           </div>
         </div>
-        <p class="is-subtitle">Et bien d'autres compétences encore..</p>
+        <p class="subtitle is-3">Et bien d'autres compétences..</p>
       </div>
     </div>
   </section>
