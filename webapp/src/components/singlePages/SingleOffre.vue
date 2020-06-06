@@ -22,15 +22,25 @@
           </tr>
         </tbody>
       </table>
-
-      <button class="button is-success is-medium is-fullwidth">Commander - {{ item.price }} €</button>
+      <DetailOffer v-show="showModal" @close="showModal = false" v-bind:offre="item"></DetailOffer>
+      <button class="button is-success is-medium is-fullwidth" @click="showModal = true">Commander - {{ item.price }} €</button>
     </div>
   </div>
 </template>
 
 <script>
+import DetailOffer from "@/components/pages/DetailOffers.vue";
+
 export default {
   name: "SingleOffre",
-  props: {item: Object} 
+  props: {item: Object},
+  data: function(){ 
+    return {
+      showModal: false
+    }
+  },
+  components: {
+    DetailOffer
+  }
 };
 </script>
