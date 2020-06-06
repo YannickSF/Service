@@ -13,11 +13,11 @@
       </a>
     </div>
     <div class="navbar-menu">
-      <a class="navbar-item" href="#header">Profil</a>
+      <!--<a class="navbar-item" href="#header">Profil</a>
       <a class="navbar-item" href="#skills">Skills</a>
       <a class="navbar-item" href="#works">Works</a>
       <a class="navbar-item" href="#offers">Services</a>
-      <!--<a class="navbar-item" href="#feedback">Feedbacks</a>-->
+      <a class="navbar-item" href="#feedback">Feedbacks</a>-->
     </div>
   </nav>
 </template>
