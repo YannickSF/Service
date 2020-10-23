@@ -7,7 +7,6 @@
         <div class="columns">
 
           <div class="column is-one-third">
-            <a href="https://ynov1.yannicksf.com" target="_about_blank">
             <div class="card box">
               <div class="card-content">
                 <p class="title" style="color: #19647eff;">Ynov I</p>
@@ -27,21 +26,17 @@
                 </p>
               </div>
               <footer class="card-footer">
-                <form action="mailto:contact@yannicksf.com?subject=Offre Mark I" method="GET">
                   <p class="card-footer-item">
-                      <button class="button is-success is-light is-large">Commander</button>
+                      <a href="https://ynov1.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Commander</button></a>
                   </p>
-                </form>
                 <p class="card-footer-item">
                   <button v-clipboard:copy="ynovI" v-on:click="copied()" class="button is-info is-light is-medium">Partager</button>
                 </p>
               </footer>
             </div>
-            </a>
           </div>
 
           <div class="column is-one-third">
-            <a href="https://ynov2.yannicksf.com" target="_about_blank">
             <div class="card box">
               <div class="card-content">
                 <p class="title" style="color: #19647eff;">Ynov II</p>
@@ -61,21 +56,17 @@
                 </p>
               </div>
               <footer class="card-footer">
-                <form action="mailto:contact@yannicksf.com?subject=Offre Mark II" method="GET">
                   <p class="card-footer-item">
-                    <button class="button is-success is-light is-large">Commander</button>
+                    <a href="https://ynov2.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Commander</button></a>
                   </p>
-                </form>
                 <p class="card-footer-item">
                   <button v-clipboard:copy="ynovII" v-on:click="copied()" class="button is-info is-light is-medium">Partager</button>
                 </p>
               </footer>
             </div>
-            </a>
           </div>
 
           <div class="column is-one-third">
-            <a href="https://ynovf.yannicksf.com" target="_about_blank">
             <div class="card box">
               <div class="card-content">
                 <p class="title" style="color: #19647eff;">Ynov F</p>
@@ -95,17 +86,14 @@
                 </p>
               </div>
               <footer class="card-footer">
-                <form action="mailto:contact@yannicksf.com?subject=Offre Mark Infinity" method="GET">
                   <p class="card-footer-item">
-                    <button class="button is-success is-light is-large">Commander</button>
+                    <a href="https://ynovf.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Commander</button></a>
                   </p>
-                </form>
                 <p class="card-footer-item">
                   <button v-clipboard:copy="ynovF" v-on:click="copied()" class="button is-info is-light is-medium">Partager</button>
                 </p>
               </footer>
             </div>
-            </a>
           </div>
 
         </div>

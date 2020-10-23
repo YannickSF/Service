@@ -22,7 +22,7 @@
         <div class="tile is-child box">
           <p class="title is-4">Newsletters</p>
             <p class="subtitle">
-              Technologies, Business, Innovations, recevez toutes les semaines un condensé des meilleurs news de la semaine.<br/>
+              Technologies, Business, Innovations, recevez toutes les semaines un condensé des meilleurs news.<br/>
               Inscrivez vous dès maintenant !
             </p>
 
@@ -34,7 +34,6 @@
                 <a class="button is-info is-rounded"> S'inscrire </a>
               </div>
             </div>
-
         </div>
       </div>
     </div>
