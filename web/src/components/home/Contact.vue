@@ -22,7 +22,7 @@
         <div class="tile is-child box">
           <p class="title is-4">Newsletters</p>
             <p class="subtitle">
-              Technologies, Business, Innovations, recevez toutes les semaines un condensé des meilleurs news.<br/>
+              Technologies, Business, Innovations, Marketing, Growth, recevez toutes les semaines un condensé des meilleurs news.<br/>
               Inscrivez vous dès maintenant !
             </p>
 
@@ -45,7 +45,7 @@ export default {
   name: "contact",
   data: function() {
     return {
-      share: "Yannick S. FELER - 0760415495 / yannick.feler@gmail.com - Site: https://yannicksf.com | Twitter: https://github.com/YannickSF | Twitter: https://twitter.com/_yannicksf",
+      share: "Yannick S. FELER\n0760415495\nyannick.feler@gmail.com\nhttps://yannicksf.com"
     };
   },
   methods: {

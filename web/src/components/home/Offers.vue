@@ -107,9 +107,9 @@ export default {
   name: "offers",
   data: function (){
     return {
-      ynovI: "Ynov I|Développement de Site internet : Vitrine, Blog, Boutique|Responsive design adapté pour mobiles et tablettes|Référencement Naturel|Hébergement inclus|A Partir de 1250€|https://ynov1.yannicksf.com",
-      ynovII: "Ynov II|Développement d'Application Desktop, Application Web ou création d'API|Assistance à la conception|Développement en méthode agile|Hébergement inclus|A Partir de 3000€|https://ynov2.yannicksf.com",
-      ynovF: "Ynov F|Vous avez une idée qui veut voir le jour ?|Un besoin en développement ?|De conseils ou de formations ?|D'Automatiser des tâches ?|DEVIS GRATUIT sur Mesure|https://ynovf.yannicksf.com"
+      ynovI: "Ynov I|https://ynov1.yannicksf.com",
+      ynovII: "Ynov II|https://ynov2.yannicksf.com",
+      ynovF: "Ynov F|https://ynovf.yannicksf.com"
     }
   },
   methods: {
