@@ -13,7 +13,7 @@
             <a href="https://yannicksf.com"><font-awesome-icon class="icon " :icon="['fa', 'link']" /></a>
             <br/>
             <br/>
-            <button id="visit" v-clipboard:copy="share" v-on:click="copied()" class="button is-small is-info is-light">Copier</button> <!-- <a href="#">#Innovation</a>-->
+            <button id="visit" alt="Copy to clipboard" v-clipboard:copy="share" v-on:click="copied()" class="button is-small is-info is-light">Copier</button> <!-- <a href="#">#Innovation</a>-->
           </p>
         
         </div>
@@ -22,16 +22,16 @@
         <div class="tile is-child box">
           <p class="title is-4">Newsletters</p>
             <p class="subtitle">
-              Technologies, Business, Innovations, Marketing, Growth, recevez toutes les semaines un condensé des meilleurs news.<br/>
+              Entreprises, Technologies, Marketing, Innovations, Growth recevez régulièrement des conseils et analyses dans le domaine.<br/>
               Inscrivez vous dès maintenant !
             </p>
 
             <div class="field has-addons">
               <div class="control is-expanded">
-                <input class="input is-rounded"  type="text" placeholder="Email" />
+                <input id="sub_mail" class="input is-rounded"  type="text" placeholder="Email" />
               </div>
               <div class="control">
-                <a class="button is-info is-rounded"> S'inscrire </a>
+                <button v-on:click="sub()" class="button is-info is-rounded"> S'inscrire </button>
               </div>
             </div>
         </div>
@@ -41,6 +41,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
   name: "contact",
   data: function() {
@@ -51,6 +52,13 @@ export default {
   methods: {
     copied: function(){
       alert('copié !')
+    },
+    sub: function(){
+      axios({
+        method: 'post',
+        url: 'https://listmonk.osmos.space',
+        data: {"email": document.getElementById('sub_mail').value,"name":"","status":"enabled","lists":[0],"attribs":""}
+      })
     }
   }
 };

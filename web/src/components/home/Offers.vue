@@ -107,9 +107,9 @@ export default {
   name: "offers",
   data: function (){
     return {
-      ynovI: "Ynov I|https://ynov1.yannicksf.com",
-      ynovII: "Ynov II|https://ynov2.yannicksf.com",
-      ynovF: "Ynov F|https://ynovf.yannicksf.com"
+      ynovI: "Ynov I by Yannick S. FELER \n|https://ynov1.yannicksf.com",
+      ynovII: "Ynov II by Yannick S. FELER \n|https://ynov2.yannicksf.com",
+      ynovF: "Ynov F by Yannick S. FELER \n|https://ynovf.yannicksf.com"
     }
   },
   methods: {
