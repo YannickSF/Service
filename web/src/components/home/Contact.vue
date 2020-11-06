@@ -54,11 +54,12 @@ export default {
       alert('copié !')
     },
     sub: function(){
-      axios({
-        method: 'post',
-        url: 'https://listmonk.osmos.space',
-        data: {"email": document.getElementById('sub_mail').value,"name":"","status":"enabled","lists":[0],"attribs":""}
-      })
+      axios.post('https://shareit-e2d7.restdb.io/rest/yannicksf', 
+      {'email': document.getElementById('sub_mail').value}, 
+      {headers: { 'cache-control': 'no-cache',
+      'x-apikey': '7d1510debd203c8a439dc2d1cc0f31d86032e',
+      'content-type': 'application/json' }}
+     )
     }
   }
 };
