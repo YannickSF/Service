@@ -7,7 +7,7 @@
             <article class="tile is-child notification is-light">
               <p class="title">U GIE IRIS</p>
               <p class="subtitle">2019-2020</p>
-              <div class="content">
+              <div class="content has-text-left">
                 <ul>
                   <li>Développeur transverse - Java, Javascript (Vue JS), Groovy, Python</li>
                   <li>Maintenance et développement d’applications </li>
@@ -18,7 +18,7 @@
             <article class="tile is-child notification is-light">
               <p class="title">CAPGEMINI</p>
               <p class="subtitle">2018 - 2019</p>
-              <div class="content">
+              <div class="content has-text-left">
                 <ul>
                   <li>Développement et maintenance d’applications framework client basé sur java struts. </li>
                   <li>Conception technique d’une application pour le client. </li>
@@ -40,7 +40,7 @@
         <div class="tile is-parent">
           <article class="tile is-child notification is-light">
             <p class="title">Compétences</p>
-            <div class="content">
+            <div class="content has-text-left">
               <ul>
                 <li>
                   Développement - 

@@ -12,6 +12,7 @@
 import NWYnov1 from '@/components/newsletters/NWYnov1.vue'
 
 export default {
+  name: 'Newsletters',
   components: {
     NWYnov1
   },

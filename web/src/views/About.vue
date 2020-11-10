@@ -8,6 +8,7 @@
 import infos from '@/components/about/Infos.vue';
 
 export default {
+  name: 'APropos',
   components: {
     infos
   }  
