@@ -18,30 +18,11 @@
         
         </div>
       </div>
-      <div class="tile is-parent">
-        <div class="tile is-child box">
-          <p class="title is-4">Newsletters</p>
-            <p class="subtitle">
-              Entreprises, Technologies, Marketing, Innovations, Growth recevez régulièrement des conseils et analyses dans le domaine.<br/>
-              Inscrivez vous dès maintenant !
-            </p>
-
-            <div class="field has-addons">
-              <div class="control is-expanded">
-                <input id="sub_mail" class="input is-rounded"  type="text" placeholder="Email" />
-              </div>
-              <div class="control">
-                <button v-on:click="sub()" class="button is-info is-rounded"> S'inscrire </button>
-              </div>
-            </div>
-        </div>
-      </div>
     </div>
   </section>
 </template>
 
 <script>
-import axios from 'axios';
 export default {
   name: "contact",
   data: function() {
@@ -52,14 +33,6 @@ export default {
   methods: {
     copied: function(){
       alert('copié !')
-    },
-    sub: function(){
-      axios.post('https://shareit-e2d7.restdb.io/rest/yannicksf', 
-      {'email': document.getElementById('sub_mail').value}, 
-      {headers: { 'cache-control': 'no-cache',
-      'x-apikey': '7d1510debd203c8a439dc2d1cc0f31d86032e',
-      'content-type': 'application/json' }}
-     )
     }
   }
 };

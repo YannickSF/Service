@@ -27,7 +27,7 @@
               </div>
               <footer class="card-footer">
                   <p class="card-footer-item">
-                      <a href="https://ynov1.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Commander</button></a>
+                      <a href="https://ynov1.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Devis Gratuit</button></a>
                   </p>
                 <p class="card-footer-item">
                   <button v-clipboard:copy="ynovI" v-on:click="copied()" class="button is-info is-light is-medium">Partager</button>
@@ -57,7 +57,7 @@
               </div>
               <footer class="card-footer">
                   <p class="card-footer-item">
-                    <a href="https://ynov2.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Commander</button></a>
+                    <a href="https://ynov2.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Devis Gratuit</button></a>
                   </p>
                 <p class="card-footer-item">
                   <button v-clipboard:copy="ynovII" v-on:click="copied()" class="button is-info is-light is-medium">Partager</button>
@@ -81,13 +81,13 @@
                         <br/>
                         <li>D'<strong>Automatiser</strong> des tâches ? </li>
                         <br/>
-                        <li><span class="tag is-success is-large is-rounded">DEVIS GRATUIT sur Mesure</span></li>
+                        <li><span class="tag is-success is-large is-rounded">A Partir de 125€</span></li>
                     </ul>
                 </p>
               </div>
               <footer class="card-footer">
                   <p class="card-footer-item">
-                    <a href="https://ynovf.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Commander</button></a>
+                    <a href="https://ynovf.yannicksf.com" target="_about_blank"><button class="button is-success is-light is-large">Devis Gratuit</button></a>
                   </p>
                 <p class="card-footer-item">
                   <button v-clipboard:copy="ynovF" v-on:click="copied()" class="button is-info is-light is-medium">Partager</button>
