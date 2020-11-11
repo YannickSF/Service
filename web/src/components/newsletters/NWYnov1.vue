@@ -21,7 +21,7 @@
         </div>
       </div>
       <footer class="card-footer">
-        <div class="field has-addons">
+        <div class="field has-addons" style="margin-top: 3%;">
           <div class="control is-expanded">
             <input id="sub_mail" class="input is-rounded" type="text" placeholder="Email" />
           </div>
@@ -44,7 +44,7 @@ export default {
   methods: {
     sub: function(){
       axios.post('https://shareit-e2d7.restdb.io/rest/yannicksf', 
-      {'email': document.getElementById('sub_mail').value}, 
+      {'email': document.getElementById('sub_mail').value, 'box': 'abs'}, 
       {headers: { 'cache-control': 'no-cache',
       'x-apikey': '7d1510debd203c8a439dc2d1cc0f31d86032e',
       'content-type': 'application/json' }}
