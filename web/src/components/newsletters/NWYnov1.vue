@@ -9,7 +9,7 @@
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <p class="title is-4">Améliorer son business grâce à internet.</p>
+            <p class="title is-4">Améliorer son activité grâce à son site internet.</p>
             <p class="subtitle is-6">by @_yannicksf</p>
           </div>
         </div>
