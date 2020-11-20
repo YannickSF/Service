@@ -3,7 +3,7 @@
     <div class="card box">
       <div class="card-image">
         <figure class="image is-square">
-          <img src="@/assets/abs.png" alt="Placeholder image" />
+          <img src="@/assets/abs.png" alt="Améliorer son activité grâce à son site internet" />
         </figure>
       </div>
       <div class="card-content">
@@ -26,7 +26,7 @@
             <input id="sub_mail" class="input is-rounded" type="text" placeholder="Email" />
           </div>
           <div class="control">
-            <button v-on:click="sub()" class="button is-info is-rounded">
+            <button v-on:click="sub()" class="button is-warning is-rounded">
               S'inscrire
             </button>
           </div>

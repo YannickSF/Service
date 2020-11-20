@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 
 import Home from "../views/Home.vue";
 import APropos from "../views/About.vue"; 
-import Newsletters from "../views/Newsletters.vue";
+import Products from "../views/Products.vue";
 
 
 Vue.use(VueRouter);
@@ -20,9 +20,9 @@ const routes = [
     component: APropos
   },
   {
-    path: "/newsletters",
-    name: "Newsletters",
-    component: Newsletters
+    path: "/produits",
+    name: "Products",
+    component: Products
   }
 ];
 

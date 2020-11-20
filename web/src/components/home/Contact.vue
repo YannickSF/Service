@@ -4,7 +4,7 @@
       <div class="tile is-4 is-vertical is-parent">
         <div class="tile is-child box">
           <p class="title is-3">Carte de Visite</p>
-          <p class="subtitle is-4"><strong>Yannick S. FELER</strong> <br/> <sub class="is-6">Concepteur Développeur Informatique</sub></p>
+          <p class="subtitle is-4"><strong>Yannick S. FELER</strong> <br/> <sub class="is-6">Consulant en Conception & Developpement Informatique</sub></p>
           <p>
             <a title="0760 41 54 95"><font-awesome-icon class="icon " :icon="['fa', 'mobile']" /></a> • 
             <a href="mailto:yannick.feler@gmail.com"><font-awesome-icon class="icon " :icon="['fa', 'envelope-open']" /></a> • 

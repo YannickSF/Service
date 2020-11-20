@@ -3,7 +3,7 @@
     <div class="card box">
       <div class="card-image">
         <figure class="image is-4by3">
-          <img src="@/assets/dtdsi.png" alt="Placeholder image" />
+          <img src="@/assets/dtdsi.png" alt="Différents Types de Sites Internets"/>
         </figure>
       </div>
       <div class="card-content">

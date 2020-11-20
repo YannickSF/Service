@@ -1,5 +1,5 @@
 <template>
-  <div class="about" style="padding-bottom: 6%;">
+  <div class="about section" style="padding-top: 5%; padding-bottom: 6%;">
     <infos />
   </div>
 </template>

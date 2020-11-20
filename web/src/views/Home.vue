@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <div class="container"> <profil /></div>
+  <div class="home" style="padding-top: 5%;">
+    <div class="section"> <profil /></div>
 
     <br />
     <br />
@@ -12,7 +12,7 @@
     <br />
     <br />
 
-    <div class="container" style="padding-bottom: 6%;"> <contact /> </div>
+    <div class="section" style="padding-bottom: 6%;"> <contact /> </div>
   </div>
 </template>
 
